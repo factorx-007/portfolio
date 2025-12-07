@@ -135,8 +135,7 @@ function ProjectCard({ project, index }: { project: any, index: number }) {
         >
             <GlassCard className="h-full flex flex-col group hover:border-neon-cyan/80 transition-all duration-300">
                 <div className={cn(
-                    "relative mb-6 overflow-hidden rounded-lg bg-gray-800/50 group/image",
-                    project.isMobile ? "h-96" : "h-48"
+                    "relative mb-6 overflow-hidden rounded-lg bg-gray-900 group/image h-64"
                 )}>
                     <AnimatePresence mode="popLayout">
                         <motion.img
