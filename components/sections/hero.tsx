@@ -45,7 +45,7 @@ export function Hero() {
                         <NeonButton onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
                             Explore Projects <ArrowRight className="ml-2 w-4 h-4" />
                         </NeonButton>
-                        <NeonButton variant="purple" onClick={() => window.open('CV Franclin Gonzales,.pdf', '_blank')}>
+                        <NeonButton variant="purple" onClick={() => window.open('/CV_Franclin_Gonzales.pdf', '_blank')}>
                             Download CV <Download className="ml-2 w-4 h-4" />
                         </NeonButton>
                     </div>
